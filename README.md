@@ -21,7 +21,7 @@ The features:
 8. Duration (numeric, in month)
 9. Purpose (text: car, furniture/equipment, radio/TV, domestic appliances, repairs, education, business, vacation/others)
 
-![image](https://github.com/user-attachments/assets/93ca5162-ab28-41ff-9789-a38cef2339d7)
+![image](pictures/distribution.png)
 
 
 ### Different models
@@ -29,15 +29,15 @@ The features:
 #### `K-means`
 
 Elbow method & Silhouette Score - there are **5 clusters**
-![image](https://github.com/user-attachments/assets/3f2e1608-02d4-4594-93d5-3bf9e4120b8b)
-![image](https://github.com/user-attachments/assets/efc5a9a4-4882-4edf-9d48-f50a4d16894e)
+![image](pictures/inertia_silhouette.png)
+![image](pictures/kmeans.png)
 
 
 #### `DBSCAN`
 
 Best params for DBSCAN are **1.40 epsilon & 5 min_samples**:
-![image](https://github.com/user-attachments/assets/c644a00a-08d5-4778-bb4a-e567cd4c4e2c)
-![image](https://github.com/user-attachments/assets/7e932ff7-dfef-42eb-9012-f7738000ab34)
+![image](pictures/epsilon_silhouette.png)
+![image](pictures/dbscan.png)
 
 DBSCAN created too many clusters, which are hard to interpret
 
@@ -45,7 +45,7 @@ DBSCAN created too many clusters, which are hard to interpret
 #### `AgglomerativeClustering`
 
 Dendrogram with best quantity of clusters:
-![image](https://github.com/user-attachments/assets/ae05a174-f0ee-46bb-aa0c-ae3ca25a6c62)
+![image](pictures/dendrogram.png)
 
 
 #### Best model
@@ -75,4 +75,4 @@ This cluster provides medium-term credits for the purchase of a car. The main cl
 **Cluster 4: Consumer credit for women**
 This cluster offers medium-term credits mainly for the purchase of a car or furniture. The main client is a 31-year-old woman without her own property. This cluster has the youngest clients, many students. Such clients can be offered a longer-term credit (and thus a smaller periodic payment) with favorable terms of early repayment.
 
-![image](https://github.com/user-attachments/assets/6ba66b73-f483-4760-ac7a-bf2dc78432f1)
+![image](pictures/clusters.png)
